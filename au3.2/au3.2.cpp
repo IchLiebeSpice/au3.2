@@ -19,7 +19,7 @@ int main()
 		if (buffer[i] < 0 && buffer[i] > cn_gt_neg)
 		{
 			++current;
-			if (current > negative)
+			if (current > negative) 
 			{
 				negative = current;
 			}
