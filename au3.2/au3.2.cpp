@@ -12,7 +12,7 @@ int main()
 	scanf_s("%d %d", &min, &max);
 	printf("%s", "Enter decimal for task 2: \n");
 	srand(time(NULL));
-	for (int i = 0; i < sizeof(buffer) / sizeof(int); ++i);
+	for (int i = 0; i < sizeof(buffer) / sizeof(int); ++i)
 	{
 		buffer[i] = rand() % (max - min + 1) + min;
 		printf("%d%c", buffer[i], i < BUFFER_SIZE - 1 ? '\t' : '\n');
